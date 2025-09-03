@@ -7,41 +7,43 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Header */}
-      <header className="bg-green-800 border-b border-green-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="text-center">
-              <h1 className="text-2xl font-bold text-white border-2 border-white px-4 py-2">
+      <header className="bg-black">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col items-center">
+            <div className="text-center py-4">
+              <h1 className="text-2xl font-bold text-white px-4 py-2">
                 Scott Mire, LPC
               </h1>
-              <p className="text-green-200 text-sm mt-1">
+              <p className="text-gray-300 text-sm mt-1">
                 Licensed Professional Counselor & Therapist
               </p>
             </div>
-            <nav className="hidden md:flex space-x-1">
-              <a href="#home" className="bg-blue-600 text-white px-3 py-1 text-sm hover:bg-blue-700 transition-colors">
-                Home
-              </a>
-              <a href="#about" className="bg-purple-600 text-white px-3 py-1 text-sm hover:bg-purple-700 transition-colors">
-                About Me
-              </a>
-              <a href="#therapy" className="bg-blue-500 text-white px-3 py-1 text-sm hover:bg-blue-600 transition-colors">
-                Therapy
-              </a>
-              <a href="#services" className="bg-green-600 text-white px-3 py-1 text-sm hover:bg-green-700 transition-colors">
-                Services
-              </a>
-              <a href="#contact" className="bg-pink-600 text-white px-3 py-1 text-sm hover:bg-pink-700 transition-colors">
-                Contact
-              </a>
-              <a href="#pricing" className="bg-indigo-600 text-white px-3 py-1 text-sm hover:bg-indigo-700 transition-colors">
-                Pricing
-              </a>
-              <a href="#referrals" className="bg-orange-600 text-white px-3 py-1 text-sm hover:bg-orange-700 transition-colors">
-                Referrals
-              </a>
-            </nav>
           </div>
+        </div>
+        <div className="border-t border-b border-gray-700">
+          <nav className="flex justify-center">
+            <a href="#home" className="text-white px-6 py-3 text-sm hover:bg-gray-800 transition-colors">
+              Home
+            </a>
+            <a href="#about" className="text-white px-6 py-3 text-sm hover:bg-gray-800 transition-colors">
+              About Me
+            </a>
+            <a href="#therapy" className="text-white px-6 py-3 text-sm hover:bg-gray-800 transition-colors">
+              Therapy
+            </a>
+            <a href="#services" className="text-white px-6 py-3 text-sm hover:bg-gray-800 transition-colors">
+              Services
+            </a>
+            <a href="#contact" className="text-white px-6 py-3 text-sm hover:bg-gray-800 transition-colors">
+              Contact
+            </a>
+            <a href="#pricing" className="text-white px-6 py-3 text-sm hover:bg-gray-800 transition-colors">
+              Pricing
+            </a>
+            <a href="#referrals" className="text-white px-6 py-3 text-sm hover:bg-gray-800 transition-colors">
+              Referrals
+            </a>
+          </nav>
         </div>
       </header>
 
@@ -143,7 +145,7 @@ function App() {
 
           <div className="text-center">
             <p className="text-gray-500 text-sm">
-              ©2025 Scott Mire, LPC
+              2025 Scott Mire, LPC
             </p>
           </div>
         </div>
@@ -153,4 +155,3 @@ function App() {
 }
 
 export default App
-
